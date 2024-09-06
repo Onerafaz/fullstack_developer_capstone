@@ -23,7 +23,7 @@ const PostReview = () => {
 
   const postreview = async ()=>{
     let name = sessionStorage.getItem("firstname")+" "+sessionStorage.getItem("lastname");
-    //If the first and second name are stores as null, use the username
+    //If the first and second name are stored as null, use the username
     if(name.includes("null")) {
       name = sessionStorage.getItem("username");
     }

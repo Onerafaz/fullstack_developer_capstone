@@ -36,7 +36,7 @@ ALLOWED_HOSTS = [
 
 CSRF_TRUSTED_ORIGINS = [
     'https://onerafaz-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai',
-    # Add any other trusted origins here
+    'https://localhost:8000'
 ]
 
 REST_FRAMEWORK = {
