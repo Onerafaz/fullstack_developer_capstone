@@ -3,11 +3,31 @@ from .models import CarMake, CarModel
 
 def initiate():
     car_make_data = [
-        {"name": "NISSAN", "description": "Great cars. Japanese technology", "mileage": 44},
-        {"name": "Mercedes", "description": "Great cars. German technology", "mileage": 44},
-        {"name": "Audi", "description": "Great cars. German technology", "mileage": 44},
-        {"name": "Kia", "description": "Great cars. Korean technology", "mileage": 44},
-        {"name": "Toyota", "description": "Great cars. Japanese technology", "mileage": 44}
+        {
+            "name": "NISSAN",
+            "description": "Great cars. Japanese technology",
+            "mileage": 44
+        },
+        {
+            "name": "Mercedes",
+            "description": "Great cars. German technology",
+            "mileage": 44
+        },
+        {
+            "name": "Audi",
+            "description": "Great cars. German technology",
+            "mileage": 44
+        },
+        {
+            "name": "Kia",
+            "description": "Great cars. Korean technology",
+            "mileage": 44
+        },
+        {
+            "name": "Toyota",
+            "description": "Great cars. Japanese technology",
+            "mileage": 44
+        }
     ]
 
     car_make_instances = []
