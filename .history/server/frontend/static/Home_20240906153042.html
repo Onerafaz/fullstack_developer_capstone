@@ -8,6 +8,8 @@
 
 const logout = async (e) => {
 //Include the code for logout here.
+<<<<<<< HEAD
+=======
   let logout_url = window.location.origin+"/djangoapp/logout";
   const res = await fetch(logout_url, {
     method: "GET",
@@ -24,6 +26,7 @@ const logout = async (e) => {
   else {
     alert("The user could not be logged out.")
   }
+>>>>>>> fb9fc0d (React login/logout)
 };
 
 let checkSession = ()=>{

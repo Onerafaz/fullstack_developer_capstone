@@ -9,6 +9,9 @@ urlpatterns = [
     # # path for registration
 
     # path for login
+<<<<<<< HEAD
+    # path(route='login', view=views.login_user, name='login'),
+=======
     path(route='login', view=views.login_user, name='login'),
 
     # path for logout
@@ -16,6 +19,7 @@ urlpatterns = [
 
     # path for registration
     path(route='register', view=views.registration, name='register'),
+>>>>>>> fb9fc0d (React login/logout)
 
     # path for dealer reviews view
 

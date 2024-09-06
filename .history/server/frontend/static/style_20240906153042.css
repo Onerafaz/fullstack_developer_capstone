@@ -124,6 +124,8 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+<<<<<<< HEAD
+=======
 
 .rounded-50 {
     border-radius: 50px !important;
@@ -145,3 +147,4 @@ img{
   left: 50%;
 }
 
+>>>>>>> fb9fc0d (React login/logout)

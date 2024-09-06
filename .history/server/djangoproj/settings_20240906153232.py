@@ -28,6 +28,10 @@ SECRET_KEY =\
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< HEAD
+ALLOWED_HOSTS = []
+CSRF_TRUSTED_ORIGINS = []
+=======
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
@@ -38,6 +42,7 @@ CSRF_TRUSTED_ORIGINS = [
     'https://onerafaz-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai',
     # Add any other trusted origins here
 ]
+>>>>>>> fb9fc0d (React login/logout)
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
@@ -57,7 +62,10 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+<<<<<<< HEAD
+=======
     'django.middleware.csrf.CsrfViewMiddleware',
+>>>>>>> fb9fc0d (React login/logout)
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -71,7 +79,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, 'frontend/static'),
+            os.path.join(BASE_DIR,'frontend/static'),
             os.path.join(BASE_DIR, 'frontend/build'),
             os.path.join(BASE_DIR, 'frontend/build/static'),
         ],
